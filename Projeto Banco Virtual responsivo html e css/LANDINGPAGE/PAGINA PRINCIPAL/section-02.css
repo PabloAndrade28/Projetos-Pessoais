@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-depoimento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+    border-radius: 142px;
+    width: 90vw;
+    margin: auto;
+    margin: top;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 145, 77) ;
+    box-shadow: 5px 5px 15px 5px #000000;   
+}
+
+.imagem{
+    width: 40vw;
+}
+
+.imagem img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gabi-img {
+    height: 17rem;
+    padding-left: 2rem;
+}
+
+#imagem2{
+    height: 33vh;
+    width: 20vw;
+    margin-right: 35px;
+}
+
+.texto{
+    margin-left: 15px;
+    font-size: 30px;
+    max-width: 906px;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 724px) {
+
+      .imagem{
+          display: none;
+      }
+      .texto{
+          font-size: 22px;
+      }
+}
+
+@media only screen and (max-width: 500px){
+
+    .texto{
+        font-size: 18px;
+    }
+}
+    
+  
